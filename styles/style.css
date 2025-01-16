@@ -8,12 +8,15 @@ header {
 
 .header-container {
   display: flex;
-  width: 1240px;
+  max-width: 1240px;
   height: 30px;
   margin: 0 auto;
   margin-top: 10px;
   margin-left: 101 px;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -47,7 +50,6 @@ header {
   font-size: 18px;
   margin-left: 41px;
   color: rgba(102, 102, 102, 1);
-  
 }
 .language-container {
   font-family: "Roboto Condensed", serif;
@@ -68,7 +70,7 @@ header {
 .navigation {
   display: flex;
   height: 67px;
-  
+
   margin: 0 auto;
   padding-left: 90px;
   padding-right: 90px;
@@ -94,18 +96,81 @@ li {
   align-items: center;
   justify-content: center;
   background-color: rgba(249, 241, 241, 1);
-
 }
-li:first-child{
-  background-color:  rgba(242, 122, 26, 1);
-  ;
+li:first-child {
+  background-color: rgba(242, 122, 26, 1);
 }
 
-
-
-.girl-image{
+.girl-image {
   height: 450;
-  max-width: 1440px;
+  width: 100%;
+  object-fit: cover;
   margin-bottom: 27px;
-     
 }
+.body-container {
+  width: 100%;
+
+  background-color: rgba(143, 1, 51, 1);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.text-title {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+  color: rgba(34, 34, 34, 1);
+
+}
+
+.text-title1 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 25.78px;
+}
+
+.table{
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 41px;
+}
+
+.first-table{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+td, th {
+  
+  text-align: left;
+  padding: 8px;
+  border-bottom:  1px solid #dddddd;
+} 
+td:nth-child(1) {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  
+
+} 
+td:nth-child(3) {
+  font-size: 23px;
+  font-weight: 800;
+  color:black;
+  text-align: center;
+}  
+           
