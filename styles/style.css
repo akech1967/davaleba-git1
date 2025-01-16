@@ -3,7 +3,6 @@
 /* ჰედერის სტილები */
 header {
   height: 50px;
-  
 }
 
 .header-container {
@@ -122,7 +121,6 @@ li:first-child {
   font-style: normal;
   font-size: 38px;
   color: rgba(34, 34, 34, 1);
-
 }
 
 .text-title1 {
@@ -136,14 +134,14 @@ li:first-child {
   line-height: 25.78px;
 }
 
-.table{
+.table {
   display: block;
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 41px;
 }
 
-.first-table{
+.first-table {
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -153,24 +151,61 @@ li:first-child {
   width: 100%;
   border: 1px solid #dddddd;
 }
-td, th {
-  
+td,
+th {
   text-align: left;
   padding: 8px;
-  border-bottom:  1px solid #dddddd;
-} 
+  border-bottom: 1px solid #dddddd;
+}
 td:nth-child(1) {
   font-size: 50px;
   font-weight: 800;
-  color: white;
+  color: rgba(210, 198, 198, 1);
   text-align: center;
-  
-
-} 
+}
 td:nth-child(3) {
   font-size: 23px;
   font-weight: 800;
-  color:black;
+  color: black;
   text-align: center;
-}  
-           
+}
+.videoimage {
+  height: 684 px;
+  padding-left: 117px;
+  padding-right: 118px;
+  background-color: rgba(143, 1, 51, 1);
+}
+.video-image {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+  margin-bottom: 50px;
+  margin-top: 53px;
+}
+
+.next-container {
+  width: 100%;
+  padding-top: 53px;
+  margin-top: 53px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.shoping {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 53px;
+  margin-top: 53px;
+}
+
+.shopping-image {
+  width: 100%;
+  
+}
+
+.footer-box{
+  width: 600px;
+  height: 30px;
+  background-color: aqua;
+
+}
