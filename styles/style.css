@@ -1,11 +1,111 @@
-header{
-    width: 1440px;
-    height: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* ჰედერის სტილები */
+header {
+  height: 50px;
+  
 }
 
-.header__text{
-    width: 88px;
-height: 31px;
-margin-top: 9px;
-margin-left: 100px;
+.header-container {
+  display: flex;
+  width: 1240px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 101 px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container__text {
+  width: 88px;
+  height: 30px;
+
+  font-family: "Roboto Condensed", serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+.header-divider {
+  display: flex;
+  height: 33px;
+  align-items: center;
+}
+.join-container {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(102, 102, 102, 1);
+}
+.about-container {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 41px;
+  color: rgba(102, 102, 102, 1);
+  
+}
+.language-container {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 41px;
+  color: rgba(102, 102, 102, 1);
+}
+.flag {
+  width: 30px;
+  height: 33px;
+  margin-left: 5px;
+}
+
+/* ნავიგაცია */
+.navigation {
+  display: flex;
+  height: 67px;
+  
+  margin: 0 auto;
+  padding-left: 90px;
+  padding-right: 90px;
+  justify-content: center;
+}
+.navigation ul {
+  display: flex;
+  /* gap: 10px; */
+}
+
+.nav-text {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
+li {
+  width: 248.75px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(249, 241, 241, 1);
+
+}
+li:first-child{
+  background-color:  rgba(242, 122, 26, 1);
+  ;
+}
+
+
+
+.girl-image{
+  height: 450;
+  max-width: 1440px;
+  margin-bottom: 27px;
+     
 }
