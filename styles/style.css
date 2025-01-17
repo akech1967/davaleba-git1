@@ -100,6 +100,11 @@ li:first-child {
   background-color: rgba(242, 122, 26, 1);
 }
 
+a:hover {
+  
+  font-size: 25px;
+}
+
 .girl-image {
   height: 450;
   width: 100%;
