@@ -35,7 +35,7 @@ header {
 }
 .join-container {
   font-family: "Roboto Condensed", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -43,7 +43,7 @@ header {
 }
 .about-container {
   font-family: "Roboto Condensed", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -52,7 +52,7 @@ header {
 }
 .language-container {
   font-family: "Roboto Condensed", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -82,7 +82,7 @@ header {
 
 .nav-text {
   font-family: "Roboto", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .girl-image {
-  height: 450;
+  height: 450px;
   width: 100%;
   object-fit: cover;
   margin-bottom: 27px;
@@ -121,7 +121,7 @@ a:hover {
 
 .text-title {
   font-family: "Roboto", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight: 500;
   font-style: normal;
   font-size: 38px;
@@ -148,7 +148,7 @@ a:hover {
 
 .first-table {
   font-family: "Roboto", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight: 500;
   font-style: normal;
   font-size: 22px;
@@ -175,7 +175,7 @@ td:nth-child(3) {
   text-align: center;
 }
 .videoimage {
-  height: 684 px;
+  /* height: 684px; */
   padding-left: 117px;
   padding-right: 118px;
   background-color: rgba(143, 1, 51, 1);
@@ -218,14 +218,14 @@ td:nth-child(3) {
 }
 
 .fa-regular{
-  size: 20px;
+  resize: 20px;
   
   
 }
 
 .text-footer {
   font-family: "Roboto", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight: 800;
   font-style: normal;
   font-size: 18px;
