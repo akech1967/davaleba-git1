@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+body{
+  max-width: 1440px;
+  width: 100%;
+}
+
+
 /* ჰედერის სტილები */
 header {
   height: 50px;
@@ -106,12 +112,14 @@ a:hover {
 }
 
 .girl-image {
-  height: 450px;
+  /* height: 450px; */
+  max-width: 1440px;
   width: 100%;
   object-fit: cover;
   margin-bottom: 27px;
 }
 .body-container {
+  max-width: 1440px;
   width: 100%;
 
   background-color: rgba(143, 1, 51, 1);
@@ -130,7 +138,7 @@ a:hover {
 
 .text-title1 {
   font-family: "Roboto", serif;
-  font-optical-sizing: auto;
+  
   font-weight: 500;
   font-style: normal;
   font-size: 22px;
@@ -204,6 +212,7 @@ td:nth-child(3) {
 }
 
 .shopping-image {
+  max-width: 1440px;
   width: 100%;
   
 }
@@ -211,17 +220,13 @@ td:nth-child(3) {
 .footer-box{
   display: flex;
   align-items: center;
+  max-width: 1440px;
   width: 100%;
   height: 21px;
   justify-content: center;
   margin-top: 20px;
 }
 
-.fa-regular{
-  resize: 20px;
-  
-  
-}
 
 .text-footer {
   font-family: "Roboto", serif;
